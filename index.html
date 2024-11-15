@@ -6,32 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jaydeep Czed - iOS Developer</title>
     <style>
-        /* General body styling */
+        /* Global Styles */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f4f8;
             margin: 0;
             padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #6a11cb, #2575fc); /* gradient background */
+            color: #333;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: #333;
+            align-items: flex-start;
+            overflow-x: hidden;
+            flex-direction: column;
         }
 
-        /* Main container styling */
         .container {
             background-color: #ffffff;
             padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
             max-width: 1000px;
             width: 90%;
-            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 50px; /* Ensuring no cut-off from top */
+            overflow: auto;
             animation: fadeIn 1.5s ease-out;
         }
 
-        /* Heading and subheading */
         h1 {
             font-size: 36px;
             color: #2c3e50;
@@ -44,16 +45,15 @@
             margin-top: 0;
         }
 
-        /* Paragraphs for introduction text */
         p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             color: #555;
             line-height: 1.8;
             max-width: 800px;
             margin: 20px auto;
         }
 
-        /* Bio section styling */
+        /* Bio Section */
         .bio {
             text-align: left;
             margin-top: 30px;
@@ -76,7 +76,7 @@
             margin: 10px 0;
         }
 
-        /* Skills section styling */
+        /* Skills Section */
         .skills ul {
             display: flex;
             justify-content: center;
@@ -100,7 +100,7 @@
             background-color: #2980b9;
         }
 
-        /* Contact section */
+        /* Contact Section */
         .contact {
             margin-top: 40px;
             font-size: 1.2em;
@@ -117,7 +117,7 @@
             text-decoration: underline;
         }
 
-        /* Footer section styling */
+        /* Footer Section */
         .footer {
             margin-top: 40px;
             font-size: 1em;
@@ -133,7 +133,7 @@
             text-decoration: underline;
         }
 
-        /* Animation for fading in the container */
+        /* Fade-in Animation */
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -150,11 +150,11 @@
             }
 
             h1 {
-                font-size: 28px;
+                font-size: 30px;
             }
 
             h2 {
-                font-size: 20px;
+                font-size: 22px;
             }
 
             p {
@@ -195,6 +195,11 @@
 
             .contact {
                 font-size: 1em;
+            }
+
+            .container {
+                margin-top: 20px;
+                padding: 15px;
             }
         }
     </style>
