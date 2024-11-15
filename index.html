@@ -4,38 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to My GitHub Pages Site</title>
+    <title>Jaydeep Czed - iOS Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-        }
-        .container {
-            text-align: center;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
             color: #333;
         }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            width: 90%;
+            text-align: center;
+            animation: fadeIn 1.5s ease-out;
+        }
+        h1 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            font-size: 24px;
+            margin-top: 0;
+        }
         p {
+            font-size: 1.2em;
             color: #555;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .bio {
+            text-align: left;
+            margin-top: 30px;
+        }
+        .bio h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .bio ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .bio li {
+            font-size: 1.1em;
+            color: #555;
+            margin: 10px 0;
+        }
+        .skills ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style-type: none;
+            margin-top: 10px;
+        }
+        .skills li {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin: 5px 10px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .skills li:hover {
+            background-color: #2980b9;
+        }
+        .contact {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 1em;
+            color: #777;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My GitHub Pages Site!</h1>
-        <p>This is a simple page to verify your GitHub Pages setup.</p>
-        <p>Feel free to explore and add more content.</p>
+        <h1>Hi, I'm Jaydeep Czed!</h1>
+        <h2>iOS Developer | Passionate Learner | Problem Solver</h2>
+        <p>Welcome to my personal website! I'm an iOS developer with a passion for creating beautiful and functional apps. I specialize in building native iOS applications with Swift and Objective-C. Check out my skills, learn more about me, and feel free to connect!</p>
+
+        <div class="bio">
+            <h3>About Me</h3>
+            <p>I am based in India and have over 4 years of experience in iOS development. I love learning new technologies, optimizing app performance, and creating seamless user experiences. Let's build something amazing together!</p>
+
+            <h3>Skills</h3>
+            <div class="skills">
+                <ul>
+                    <li>Swift</li>
+                    <li>Objective-C</li>
+                    <li>Core Data</li>
+                    <li>UI/UX Design</li>
+                    <li>App Store Submission</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+
+            <h3>Bio</h3>
+            <ul>
+                <li>📍 Location: India</li>
+                <li>💻 Current Role: iOS Developer</li>
+                <li>🚀 Years of Experience: 4+</li>
+                <li>📚 Always learning and experimenting with new technologies!</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out to me on:</p>
+            <p>
+                <a href="https://www.linkedin.com/in/jaydeepczed" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/jaydeepczed" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Made with ❤️ by <a href="https://jaydeepczed.github.io">Jaydeep Czed</a></p>
+        </div>
     </div>
 </body>
 </html>
